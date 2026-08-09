@@ -1,3 +1,4 @@
+
 def check_wallet(address):
     if address.startswith("0x") and len(address) == 42:
         return "Valid EVM wallet format"
